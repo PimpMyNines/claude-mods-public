@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "catylai-marketplace",
+  "description": "Catylai plugin marketplace — personal productivity, finance, dev, and media plugins for Claude Code.",
+  "owner": {
+    "name": "Shawn LoPresto",
+    "email": "shawn@catylai.com"
+  },
+  "plugins": [
+    {
+      "name": "personal-finance",
+      "description": "Budgeting, transaction review, and reporting via Plaid + QuickBooks.",
+      "version": "0.0.0",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "plaid",
+        "quickbooks",
+        "budget"
+      ],
+      "license": "MIT",
+      "source": {
+        "source": "npm",
+        "package": "@catylai/personal-finance",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "name": "personal-assistant",
+      "description": "Calendar, email, and task triage workflows.",
+      "version": "0.0.0",
+      "category": "productivity",
+      "tags": [
+        "calendar",
+        "email",
+        "tasks"
+      ],
+      "license": "MIT",
+      "source": {
+        "source": "npm",
+        "package": "@catylai/personal-assistant",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "name": "software-development",
+      "description": "Code review, refactoring, and Jira/GitHub workflows.",
+      "version": "0.0.0",
+      "category": "development",
+      "tags": [
+        "jira",
+        "github",
+        "review",
+        "refactor"
+      ],
+      "license": "MIT",
+      "source": {
+        "source": "npm",
+        "package": "@catylai/software-development",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "name": "image-generation",
+      "description": "Image generation via Gemini Imagen and friends.",
+      "version": "0.0.0",
+      "category": "media",
+      "tags": [
+        "image",
+        "gemini",
+        "imagen",
+        "ai"
+      ],
+      "license": "MIT",
+      "source": {
+        "source": "npm",
+        "package": "@catylai/image-generation",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "name": "social-media-manager",
+      "description": "Draft, schedule, and analyze posts across social platforms.",
+      "version": "0.0.0",
+      "category": "media",
+      "tags": [
+        "social",
+        "scheduling",
+        "content"
+      ],
+      "license": "MIT",
+      "source": {
+        "source": "npm",
+        "package": "@catylai/social-media-manager",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "name": "project-management",
+      "description": "Project planning, sprint tracking, and Jira automation.",
+      "version": "0.0.0",
+      "category": "productivity",
+      "tags": [
+        "jira",
+        "planning",
+        "sprints"
+      ],
+      "license": "MIT",
+      "source": {
+        "source": "npm",
+        "package": "@catylai/project-management",
+        "version": "0.0.0"
+      }
+    }
+  ]
+}
