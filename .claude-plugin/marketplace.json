@@ -45,7 +45,7 @@
     {
       "name": "software-development",
       "description": "Code review, refactoring, and Jira/GitHub workflows.",
-      "version": "0.0.0",
+      "version": "0.0.3",
       "category": "development",
       "tags": [
         "jira",
@@ -57,7 +57,7 @@
       "source": {
         "source": "npm",
         "package": "@catylai/software-development",
-        "version": "0.0.0"
+        "version": "0.0.3"
       }
     },
     {
